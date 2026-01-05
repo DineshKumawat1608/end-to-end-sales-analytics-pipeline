@@ -53,7 +53,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ## 📂 Repository Structure
 ```
-data-warehouse-project/
+1. data-warehouse/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
@@ -71,8 +71,40 @@ data-warehouse-project/
 │   ├── gold/                           # Scripts for creating analytical models
 │
 ├── tests/                              # Test scripts and quality files
-│
+
+2. 
+
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├──
 ├── README.md                           # Project overview and instructions
+
+
 ```
 ---
 
