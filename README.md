@@ -1,7 +1,15 @@
-# Welcome to the Data Warehouse and Analytics Project
+# End-to-End Sales Data Warehouse & Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+This repository showcases an **end-to-end data analytics project** where raw sales data is transformed into meaningful business insights using a modern data warehouse approach.
+
+The project covers the complete analytics lifecycle — from **building a data warehouse**, performing **ETL and data modeling**, to conducting **SQL-based analysis** and delivering **business-focused dashboards**.
+
+Key dashboards and analysis focus on:
+- **Customer behavior and segmentation**
+- **Product performance and contribution**
+- **Overall sales trends and business KPIs**
+
+This project is created as a **portfolio project** to demonstrate practical, industry-relevant skills in data warehousing, analytics, and reporting.
 
 ---
 ## 🏗️ Data Architecture
