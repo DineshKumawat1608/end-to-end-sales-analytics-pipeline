@@ -29,10 +29,11 @@ This project involves:
 1. **Data Architecture**: Designing a modern data warehouse using Medallion Architecture with **Bronze**, **Silver**, and **Gold** layers.
 2. **ETL Pipelines**: Extracting, transforming, and loading data from ERP and CRM source systems into the warehouse.
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries and reporting.
-4. **Analytics & Reporting**: Creating SQL-based reports for actionable insights.
-5. **Exploratory Data Analysis (EDA)**: Performing initial data exploration and data quality checks to understand patterns, trends, and anomalies in sales data.
-6. **Advanced Analysis**: Conducting deeper analysis to evaluate sales performance, customer behavior, and product trends using SQL.
-7. **Analytics & Dashboards**: Building business-focused dashboards for **customers**, **products**, and **overall sales performance** to support data-driven decision-making.
+4. **Exploratory Data Analysis (EDA)**: Performing initial data exploration and data quality checks to understand patterns, trends, and anomalies in sales data.
+5. **Advanced Analysis**: Conducting deeper analysis to evaluate sales performance, customer behavior, and product trends using SQL.
+6. **Analytics & Reporting**: Creating SQL-based reports and BI-ready datasets.
+7. **Dashboards**: Building customer and product performance dashboards to support decision-making.
+
 
 
 ---
@@ -62,7 +63,8 @@ Analyze sales data to uncover trends, patterns, and performance insights across 
 - **Trend Analysis**: Analyze change-over-time and cumulative trends to evaluate sales performance and seasonality.
 - **Performance Analysis**: Identify top and bottom customers and products using ranking and magnitude analysis.
 - **Advanced Analysis**: Conduct part-to-whole analysis and segmentation to understand customer and product contribution.
-- **Reporting**: Convert analytical insights into customer, product, and sales performance dashboards.
+- **Reporting**: Convert analytical insights into BI-ready datasets and customer and product dashboards.
+
 
 ---
 
@@ -175,7 +177,7 @@ These dashboards convert raw sales data into clear business insights to support 
 │
 ├── docs/                               # Dashboard documentation and exports
 │   └── dashboards_pdf.pdf              # Exported dashboard in PDF format
-│
+---
 │ 
 │ 
 │ 
@@ -187,10 +189,8 @@ These dashboards convert raw sales data into clear business insights to support 
 
 ## 🌟 About Me
 
-Hi there! I'm **Dinesh Kumawat**. I’m an data analyst with hands-on experience in SQL, Python, Excel, Power BI, and Tableau, and a strong interest in solving real business problems using boring raw_data.
+Hi there! I'm **Dinesh Kumawat**. I’m a data analyst with hands-on experience in SQL, Python, Excel, Power BI, and Tableau, and a strong interest in solving real business problems using boring raw_data.
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
 
-[![LinkedIn](www.linkedin.com/in/
-dineshkumawat1608
-)
+[LinkedIn](https://www.linkedin.com/in/dineshkumawat1608/)
