@@ -110,7 +110,7 @@ These dashboards convert raw sales data into clear business insights to support 
 │   ├── gold/                           # Scripts for creating analytical models
 │
 ├── tests/                              # Test scripts and quality files
------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
 2. analysis/
 │
 ├── datasets/                                     # Gold layer datasets used for analysis
@@ -162,7 +162,7 @@ These dashboards convert raw sales data into clear business insights to support 
 ├── docs/                                          # Analysis documentation
 │   └── eda_roadmap.png
 │
---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
 3. dashboard/
 │
 ├── datasets/                           # Datasets used for dashboard creation
@@ -177,7 +177,7 @@ These dashboards convert raw sales data into clear business insights to support 
 │
 ├── docs/                               # Dashboard documentation and exports
 │   └── dashboards_pdf.pdf              # Exported dashboard in PDF format
---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
 │ 
 │ 
 │ 
