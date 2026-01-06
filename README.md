@@ -109,7 +109,59 @@ These dashboards convert raw sales data into clear business insights to support 
 │
 ├── tests/                              # Test scripts and quality files
 
-2. 
+2. analysis/
+│
+├── datasets/                           # Gold layer datasets used for analysis
+│   ├── gold.dim_customers.csv
+│   ├── gold.dim_products.csv
+│   └── gold.fact_sales.csv
+│
+├── eda/                                # Exploratory Data Analysis
+│   ├── sql_scripts/                   # SQL scripts for EDA
+│   │   ├── 00_init_database.sql
+│   │   ├── 01_database_exploration.sql
+│   │   ├── 02_dimensions_exploration.sql
+│   │   ├── 03_date_range_exploration.sql
+│   │   ├── 04_measures_exploration.sql
+│   │   ├── 05_magnitude_analysis.sql
+│   │   └── 06_ranking_analysis.sql
+│   │
+│   └── sql_jupyter_scripts/            # SQL executed via Jupyter notebooks
+│       ├── 01_database_exploration.ipynb
+│       ├── 02_dimensions_exploration.ipynb
+│       ├── 03_date_range_exploration.ipynb
+│       ├── 04_measures_exploration.ipynb
+│       ├── 05_magnitude_analysis.ipynb
+│       └── 06_ranking_analysis.ipynb
+│
+├── advanced_analysis/                  # Advanced and business-focused analysis
+│   ├── sql_scripts/                   # SQL scripts for advanced analysis
+│   │   ├── 07_change_over_time_analysis.sql
+│   │   ├── 08_cumulative_analysis.sql
+│   │   ├── 09_performance_analysis.sql
+│   │   ├── 10_data_segmentation.sql
+│   │   ├── 11_part_to_whole_analysis.sql
+│   │   ├── 12_report_customers.sql
+│   │   └── 13_report_products.sql
+│   │
+│   └── sql_jupyter_scripts/            # Advanced analysis via Jupyter notebooks
+│       ├── 07_change_over_time_analysis.ipynb
+│       ├── 08_cumulative_analysis.ipynb
+│       ├── 09_performance_analysis.ipynb
+│       ├── 10_data_segmentation.ipynb
+│       ├── 11_part_to_whole_analysis.ipynb
+│       ├── 12_report_customers.ipynb
+│       └── 13_report_products.ipynb
+│
+├── final_bi_ready_reports/             # Final datasets prepared for BI tools
+│   ├── customers_report.csv
+│   └── product_report.csv
+│
+├── docs/                               # Analysis documentation
+│   └── eda_roadmap.png
+│
+└── README.md                           # Analysis overview and methodology
+
 
 ├──
 ├──
