@@ -111,13 +111,13 @@ These dashboards convert raw sales data into clear business insights to support 
 
 2. analysis/
 │
-├── datasets/                           # Gold layer datasets used for analysis
+├── datasets/                                     # Gold layer datasets used for analysis
 │   ├── gold.dim_customers.csv
 │   ├── gold.dim_products.csv
 │   └── gold.fact_sales.csv
 │
-├── eda/                                # Exploratory Data Analysis
-│   ├── sql_scripts/                   # SQL scripts for EDA
+├── eda/                                          # Exploratory Data Analysis
+│   ├── sql_scripts/                              # SQL scripts for EDA
 │   │   ├── 00_init_database.sql
 │   │   ├── 01_database_exploration.sql
 │   │   ├── 02_dimensions_exploration.sql
@@ -126,7 +126,7 @@ These dashboards convert raw sales data into clear business insights to support 
 │   │   ├── 05_magnitude_analysis.sql
 │   │   └── 06_ranking_analysis.sql
 │   │
-│   └── sql_jupyter_scripts/            # SQL executed via Jupyter notebooks
+│   └── sql_jupyter_scripts/                      # SQL executed via Jupyter notebooks
 │       ├── 01_database_exploration.ipynb
 │       ├── 02_dimensions_exploration.ipynb
 │       ├── 03_date_range_exploration.ipynb
@@ -134,8 +134,8 @@ These dashboards convert raw sales data into clear business insights to support 
 │       ├── 05_magnitude_analysis.ipynb
 │       └── 06_ranking_analysis.ipynb
 │
-├── advanced_analysis/                  # Advanced and business-focused analysis
-│   ├── sql_scripts/                   # SQL scripts for advanced analysis
+├── advanced_analysis/                            # Advanced and business-focused analysis
+│   ├── sql_scripts/                              # SQL scripts for advanced analysis
 │   │   ├── 07_change_over_time_analysis.sql
 │   │   ├── 08_cumulative_analysis.sql
 │   │   ├── 09_performance_analysis.sql
@@ -144,7 +144,7 @@ These dashboards convert raw sales data into clear business insights to support 
 │   │   ├── 12_report_customers.sql
 │   │   └── 13_report_products.sql
 │   │
-│   └── sql_jupyter_scripts/            # Advanced analysis via Jupyter notebooks
+│   └── sql_jupyter_scripts/                      # Advanced analysis via Jupyter notebooks
 │       ├── 07_change_over_time_analysis.ipynb
 │       ├── 08_cumulative_analysis.ipynb
 │       ├── 09_performance_analysis.ipynb
@@ -153,44 +153,32 @@ These dashboards convert raw sales data into clear business insights to support 
 │       ├── 12_report_customers.ipynb
 │       └── 13_report_products.ipynb
 │
-├── final_bi_ready_reports/             # Final datasets prepared for BI tools
+├── final_bi_ready_reports/                        # Final datasets prepared for BI tools
 │   ├── customers_report.csv
 │   └── product_report.csv
 │
-├── docs/                               # Analysis documentation
+├── docs/                                          # Analysis documentation
 │   └── eda_roadmap.png
 │
-└── README.md                           # Analysis overview and methodology
-
-
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
-├──
+---
+3. dashboard/
+│
+├── datasets/                           # Datasets used for dashboard creation
+│   ├── Customers_Report.csv            # BI-ready customer report
+│   ├── Product_Report.csv              # BI-ready product report
+│   ├── Sales.csv                       # Sales fact data for dashboards
+│   ├── customers.csv                   # Customer reference data
+│   └── products.csv                    # Product reference data
+│
+├── powerbi/                            # Power BI dashboard files
+│   └── end_to_end_dashboard.pbix       # Final end-to-end Power BI dashboard
+│
+├── docs/                               # Dashboard documentation and exports
+│   └── dashboards_pdf.pdf              # Exported dashboard in PDF format
+│
+│ 
+│ 
+│ 
 ├── README.md                           # Project overview and instructions
 
 
