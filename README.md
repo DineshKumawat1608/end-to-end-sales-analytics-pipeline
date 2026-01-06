@@ -21,14 +21,18 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
+
 ## 📖 Project Overview
 
 This project involves:
 
-1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
-2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+1. **Data Architecture**: Designing a modern data warehouse using Medallion Architecture with **Bronze**, **Silver**, and **Gold** layers.
+2. **ETL Pipelines**: Extracting, transforming, and loading data from ERP and CRM source systems into the warehouse.
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries and reporting.
+4. **Analytics & Reporting**: Creating SQL-based reports for actionable insights.
+5. **Exploratory Data Analysis (EDA)**: Performing initial data exploration and data quality checks to understand patterns, trends, and anomalies in sales data.
+6. **Advanced Analysis**: Conducting deeper analysis to evaluate sales performance, customer behavior, and product trends using SQL.
+7. **Analytics & Dashboards**: Building business-focused dashboards for **customers**, **products**, and **overall sales performance** to support data-driven decision-making.
 
 
 ---
@@ -48,7 +52,40 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
-### BI: Analytics & Reporting (Data Analysis)
+### Data Analysis (EDA & Advanced Analytics)
+
+#### Objective
+Analyze sales data to uncover trends, patterns, and performance insights across customers, products, and time to support business decision-making.
+
+#### Specifications
+- **Exploratory Data Analysis (EDA)**: Perform database, dimension, date, and measure-level exploration to understand data distribution and quality.
+- **Trend Analysis**: Analyze change-over-time and cumulative trends to evaluate sales performance and seasonality.
+- **Performance Analysis**: Identify top and bottom customers and products using ranking and magnitude analysis.
+- **Advanced Analysis**: Conduct part-to-whole analysis and segmentation to understand customer and product contribution.
+- **Reporting**: Convert analytical insights into customer, product, and sales performance dashboards.
+
+---
+
+### Customer & Product Performance Dashboards
+
+#### Objective
+Provide clear and easy-to-understand dashboards that help business users understand customer behavior and product performance without technical knowledge.
+
+#### Key Highlights
+- Shows overall business metrics such as total sales, total customers, total products, quantity sold, and average sales values.
+- Customer insights include:
+  - Sales breakdown by customer type, country, gender, and age group.
+  - Average sales and orders per customer.
+  - Identification of customers who may stop purchasing based on recent activity.
+- Product insights include:
+  - Sales and quantity performance by product category and subcategory.
+  - Top-performing products based on revenue.
+  - Comparison of product cost and selling price to understand profitability.
+- Simple filters allow users to explore data by customer details, product details, categories, and lifecycle information.
+
+These dashboards convert raw sales data into clear business insights to support better customer and product-related decisions.
+
+---
 
 #### Objective
 Develop SQL-based analytics to deliver detailed insights into:
